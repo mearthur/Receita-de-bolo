@@ -17,10 +17,6 @@ body {
   background-color: var(--background-color);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   font-family: "Alice", serif;
 }
 
@@ -29,7 +25,7 @@ body {
   padding: 24px;
   width: 800px;
   border-radius: 16px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
 }
 
 #banner {
@@ -97,4 +93,9 @@ ul li {
 footer {
   color: var(--text-on-bg);
   padding: 28px 0;
+  text-align: center;
+}
+
+footer img {
+  vertical-align: middle;
 }
