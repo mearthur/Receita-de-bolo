@@ -21,7 +21,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 24px;
   font-family: "Alice", serif;
 }
 
@@ -97,5 +96,5 @@ ul li {
 
 footer {
   color: var(--text-on-bg);
-  padding: 28px 0 0;
+  padding: 28px 0;
 }
